@@ -1,6 +1,6 @@
-const express = require("express");
-const conexion = require("./db");
-const { body, param, validationResult } = require("express-validator");
+import express from "express";
+import { body, param, validationResult } from "express-validator";
+import conexion from "./db.js";
 
 const app = express();
 const PORT = 3000;
